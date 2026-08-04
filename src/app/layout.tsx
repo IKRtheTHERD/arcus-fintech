@@ -32,9 +32,10 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${spaceMono.variable}`}>
       <body className="bg-bgDark text-textMain min-h-screen flex flex-col antialiased selection:bg-accentCyan selection:text-bgDark">
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1"><SmoothScrollProvider>{children}</SmoothScrollProvider></main>
         <Footer />
       </body>
     </html>
   );
 }
+\nimport SmoothScrollProvider from '@/components/SmoothScrollProvider';
