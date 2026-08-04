@@ -1,0 +1,154 @@
+{
+  "strategies": [
+    {
+      "id": "stat-arb",
+      "name": "Statistical Arbitrage & Market Neutral Core",
+      "tagline": "Sub-second pair correlation anomaly discovery across global equity & futures markets.",
+      "cagr": 24.2,
+      "sharpe": 3.12,
+      "maxDrawdown": -2.4,
+      "beta": 0.04,
+      "description": "Exploits transient pricing dislocations across thousands of cointegrated asset pairs. Utilizes ultra-low-latency statistical models to execute zero-net-exposure positions with strict risk limits.",
+      "signalsPerDay": "140,000+",
+      "avgHoldingTime": "4.2 minutes",
+      "capacity": "$1.5B"
+    },
+    {
+      "id": "vol-arb",
+      "name": "Volatility Surface Arbitrage (VolArb)",
+      "tagline": "Dynamic option skew mispricing capture with convex tail-risk protection.",
+      "cagr": 19.8,
+      "sharpe": 2.88,
+      "maxDrawdown": -1.8,
+      "beta": -0.02,
+      "description": "Constructs delta-neutral option structures that monetize misalignments between implied volatility surfaces and real-time realized variance. Engineered for asymmetrical positive payoff in high-stress regimes.",
+      "signalsPerDay": "28,000+",
+      "avgHoldingTime": "1.8 days",
+      "capacity": "$800M"
+    },
+    {
+      "id": "macro-trend",
+      "name": "Cross-Asset Multi-Factor Momentum Engine",
+      "tagline": "Deep learning signal extraction across macro commodities, sovereign debt, and foreign exchange.",
+      "cagr": 28.6,
+      "sharpe": 2.65,
+      "maxDrawdown": -3.8,
+      "beta": 0.12,
+      "description": "Identifies structural regime shifts and macro momentum vectors through multi-resolution time-series transformers. Continuously adapts leverage ratios to suppress downside drawdowns during whipsaw environments.",
+      "signalsPerDay": "8,500+",
+      "avgHoldingTime": "6.4 days",
+      "capacity": "$2.2B"
+    },
+    {
+      "id": "micro-structure",
+      "name": "Orderbook Microstructure Imbalance",
+      "tagline": "High-frequency limit book order flow imbalance monetizer.",
+      "cagr": 31.4,
+      "sharpe": 3.45,
+      "maxDrawdown": -1.1,
+      "beta": 0.01,
+      "description": "Analyzes Level-3 orderbook depth and queue priority metrics to predict micro-price movements over 10ms to 500ms horizons. Delivers near-zero correlation to overall equity market indexes.",
+      "signalsPerDay": "450,000+",
+      "avgHoldingTime": "12 seconds",
+      "capacity": "$500M"
+    }
+  ],
+  "monthlyReturns": [
+    { "year": 2020, "Jan": 2.1, "Feb": 3.4, "Mar": 4.8, "Apr": 2.2, "May": 1.9, "Jun": 2.5, "Jul": 1.8, "Aug": 2.9, "Sep": 1.4, "Oct": 2.7, "Nov": 3.1, "Dec": 2.0, "total": 35.5 },
+    { "year": 2021, "Jan": 2.8, "Feb": 1.9, "Mar": 2.4, "Apr": 3.0, "May": 2.1, "Jun": 1.7, "Jul": 2.9, "Aug": 2.3, "Sep": 1.8, "Oct": 3.2, "Nov": 2.5, "Dec": 2.2, "total": 32.9 },
+    { "year": 2022, "Jan": 3.6, "Feb": 4.1, "Mar": 3.9, "Apr": 2.8, "May": 3.2, "Jun": 2.4, "Jul": 1.9, "Aug": 2.7, "Sep": 3.5, "Oct": 2.1, "Nov": 1.8, "Dec": 2.6, "total": 40.5 },
+    { "year": 2023, "Jan": 2.4, "Feb": 1.8, "Mar": 2.9, "Apr": 2.1, "May": 2.5, "Jun": 3.1, "Jul": 2.0, "Aug": 1.6, "Sep": 2.8, "Oct": 2.4, "Nov": 3.0, "Dec": 2.7, "total": 33.6 },
+    { "year": 2024, "Jan": 2.9, "Feb": 2.2, "Mar": 3.5, "Apr": 1.9, "May": 2.7, "Jun": 2.4, "Jul": 3.1, "Aug": 2.6, "Sep": 2.1, "Oct": 2.8, "Nov": 3.3, "Dec": 2.5, "total": 36.8 }
+  ],
+  "performanceSeries": {
+    "1Y": [
+      { "date": "Jan 24", "arcus": 102.9, "sp500": 101.6, "hedgeFund": 100.8 },
+      { "date": "Feb 24", "arcus": 105.2, "sp500": 103.8, "hedgeFund": 101.5 },
+      { "date": "Mar 24", "arcus": 108.9, "sp500": 105.1, "hedgeFund": 102.3 },
+      { "date": "Apr 24", "arcus": 111.0, "sp500": 101.8, "hedgeFund": 101.4 },
+      { "date": "May 24", "arcus": 114.0, "sp500": 106.7, "hedgeFund": 103.1 },
+      { "date": "Jun 24", "arcus": 116.7, "sp500": 110.4, "hedgeFund": 104.2 },
+      { "date": "Jul 24", "arcus": 120.3, "sp500": 111.8, "hedgeFund": 105.0 },
+      { "date": "Aug 24", "arcus": 123.4, "sp500": 114.2, "hedgeFund": 106.1 },
+      { "date": "Sep 24", "arcus": 126.0, "sp500": 116.5, "hedgeFund": 107.2 },
+      { "date": "Oct 24", "arcus": 129.5, "sp500": 115.4, "hedgeFund": 107.8 },
+      { "date": "Nov 24", "arcus": 133.8, "sp500": 122.1, "hedgeFund": 109.4 },
+      { "date": "Dec 24", "arcus": 136.8, "sp500": 124.5, "hedgeFund": 110.5 }
+    ],
+    "3Y": [
+      { "date": "Q1 22", "arcus": 112.1, "sp500": 95.4, "hedgeFund": 98.2 },
+      { "date": "Q2 22", "arcus": 121.5, "sp500": 80.2, "hedgeFund": 92.1 },
+      { "date": "Q3 22", "arcus": 130.8, "sp500": 76.5, "hedgeFund": 90.4 },
+      { "date": "Q4 22", "arcus": 140.5, "sp500": 82.3, "hedgeFund": 94.0 },
+      { "date": "Q1 23", "arcus": 150.7, "sp500": 88.5, "hedgeFund": 97.6 },
+      { "date": "Q2 23", "arcus": 162.3, "sp500": 96.1, "hedgeFund": 101.2 },
+      { "date": "Q3 23", "arcus": 172.9, "sp500": 93.5, "hedgeFund": 100.8 },
+      { "date": "Q4 23", "arcus": 187.6, "sp500": 104.2, "hedgeFund": 105.4 },
+      { "date": "Q1 24", "arcus": 204.3, "sp500": 115.1, "hedgeFund": 109.8 },
+      { "date": "Q2 24", "arcus": 218.9, "sp500": 120.4, "hedgeFund": 111.9 },
+      { "date": "Q3 24", "arcus": 236.4, "sp500": 127.0, "hedgeFund": 114.7 },
+      { "date": "Q4 24", "arcus": 256.4, "sp500": 135.8, "hedgeFund": 118.2 }
+    ],
+    "5Y": [
+      { "date": "2020", "arcus": 135.5, "sp500": 118.4, "hedgeFund": 109.2 },
+      { "date": "2021", "arcus": 180.1, "sp500": 152.4, "hedgeFund": 121.5 },
+      { "date": "2022", "arcus": 253.0, "sp500": 124.8, "hedgeFund": 114.2 },
+      { "date": "2023", "arcus": 338.0, "sp500": 157.6, "hedgeFund": 124.6 },
+      { "date": "2024", "arcus": 462.4, "sp500": 196.2, "hedgeFund": 137.7 }
+    ]
+  },
+  "riskMetrics": [
+    { "metric": "Compounded Annual Growth Rate (CAGR)", "arcus": "31.4%", "sp500": "14.2%", "hedgeFund": "8.9%", "advantage": "+17.2% Alpha" },
+    { "metric": "Sharpe Ratio (Rf = 4.5%)", "arcus": "2.84", "sp500": "0.92", "hedgeFund": "0.74", "advantage": "3.0x Risk-Adjusted" },
+    { "metric": "Sortino Ratio (Downside Risk)", "arcus": "4.12", "sp500": "1.15", "hedgeFund": "0.91", "advantage": "3.5x Protection" },
+    { "metric": "Maximum Drawdown (Peak-to-Trough)", "arcus": "-3.8%", "sp500": "-24.5%", "hedgeFund": "-16.2%", "advantage": "84.5% Risk Reduction" },
+    { "metric": "Annualized Volatility (Std Dev)", "arcus": "7.2%", "sp500": "17.4%", "hedgeFund": "12.1%", "advantage": "Low Volatility Profile" },
+    { "metric": "Calmar Ratio (CAGR / Max DD)", "arcus": "8.26", "sp500": "0.58", "hedgeFund": "0.55", "advantage": "14.2x Calmar Score" },
+    { "metric": "Market Beta (S&P 500 Correlation)", "arcus": "0.08", "sp500": "1.00", "hedgeFund": "0.68", "advantage": "Market Neutral" },
+    { "metric": "Annualized Alpha (Jensen's α)", "arcus": "+24.6%", "sp500": "0.0%", "hedgeFund": "+1.8%", "advantage": "Uncorrelated Return" }
+  ],
+  "team": [
+    {
+      "name": "Dr. Marcus Vance",
+      "title": "Chief Investment Officer & Co-Founder",
+      "bio": "Former Head of Statistical Arbitrage at D.E. Shaw & Co. PhD in Applied Mathematics & Quantum Information from MIT.",
+      "role": "Quant Architecture & Strategy Lead"
+    },
+    {
+      "name": "Dr. Elena Rostova",
+      "title": "Chief Risk Officer & Co-Founder",
+      "bio": "Former Principal Quantitative Researcher at Renaissance Technologies. PhD in Financial Econometrics from Stanford University.",
+      "role": "Risk Modeling & Convexity Hedging"
+    },
+    {
+      "name": "Julian Sterling",
+      "title": "Head of High-Frequency Execution",
+      "bio": "Former Senior Managing Director at Citadel Securities. M.S. in Computer Science & Distributed Systems from Carnegie Mellon.",
+      "role": "Orderbook Dynamics & Infrastructure"
+    },
+    {
+      "name": "Dr. Rajiv Kapoor",
+      "title": "Director of Machine Learning",
+      "bio": "Former Lead AI Scientist at Two Sigma. PhD in Statistical Machine Learning & Neural Networks from University of Oxford.",
+      "role": "Cross-Asset Signal Generation"
+    }
+  ],
+  "partners": [
+    { "name": "BNY Mellon", "role": "Institutional Custody & Clearing", "type": "custodian" },
+    { "name": "Goldman Sachs", "role": "Prime Brokerage Services", "type": "prime_broker" },
+    { "name": "KPMG LLP", "role": "Annual Independent Audit", "type": "auditor" },
+    { "name": "Sidley Austin LLP", "role": "Investment Fund Legal Counsel", "type": "legal" }
+  ],
+  "applications": [
+    {
+      "id": "app-1",
+      "fullName": "Alexander Vance",
+      "email": "a.vance@vancefamilyoffice.com",
+      "phone": "+1 (212) 555-0192",
+      "investableAssets": "$10M - $25M",
+      "investorType": "Family Office",
+      "createdAt": "2026-08-01T14:30:00Z",
+      "status": "APPROVED"
+    }
+  ]
+}
