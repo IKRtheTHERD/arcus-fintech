@@ -62,8 +62,16 @@ export default function Footer() {
         </div>
 
         {/* Bottom copyright */}
-        <div className="flex flex-col sm:flex-row items-center justify-between text-[11px] pt-4 text-textSub">
-          <div>© {new Date().getFullYear()} ARCUS Fintech Capital Management LLC. All rights reserved.</div>
+        <div className="flex flex-col sm:flex-row items-center justify-between text-[11px] pt-4 text-textSub gap-2">
+          <div className="flex flex-col sm:flex-row items-center gap-x-3 gap-y-1 text-center sm:text-left">
+            <span>© 2025 Darin. All rights reserved.</span>
+            <span className="hidden sm:inline text-panelBorder">|</span>
+            <span>Sulaymaniyah, Kurdistan</span>
+            <span className="hidden sm:inline text-panelBorder">|</span>
+            <a href="mailto:IBR.KR@outlook.com" className="hover:text-accentCyan transition-colors">IBR.KR@outlook.com</a>
+            <span className="hidden sm:inline text-panelBorder">|</span>
+            <span className="text-accentCyan/70">Designed &amp; Developed by Darin</span>
+          </div>
           <div className="flex items-center space-x-4 mt-2 sm:mt-0">
             <span className="hover:text-textMain cursor-pointer">Privacy Policy</span>
             <span>•</span>
