@@ -3,6 +3,7 @@ import { Inter, Space_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SmoothScrollProvider from "@/components/SmoothScrollProvider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -38,4 +39,3 @@ export default function RootLayout({
     </html>
   );
 }
-\nimport SmoothScrollProvider from '@/components/SmoothScrollProvider';
