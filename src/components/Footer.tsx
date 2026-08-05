@@ -70,7 +70,7 @@ export default function Footer() {
             <span className="hidden sm:inline text-panelBorder">|</span>
             <a href="mailto:IBR.KR@outlook.com" className="hover:text-accentCyan transition-colors">IBR.KR@outlook.com</a>
             <span className="hidden sm:inline text-panelBorder">|</span>
-            <span className="text-accentCyan/70">Designed &amp; Developed by SimaVision x Ibrahim</span>
+            <span className="text-accentCyan/70">MADE BY IBRAHIM K.R</span>
           </div>
           <div className="flex items-center space-x-4 mt-2 sm:mt-0">
             <span className="hover:text-textMain cursor-pointer">Privacy Policy</span>
@@ -84,4 +84,5 @@ export default function Footer() {
     </footer>
   );
 }
+
 
